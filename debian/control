@@ -2,7 +2,7 @@ Source: gdm-tools
 Section: gnome
 Priority: optional
 Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 10), libglib2.0-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/realmazharhussain/gdm-tools
 
