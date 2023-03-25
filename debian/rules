@@ -1,8 +1,4 @@
 #!/usr/bin/make -f
 
-override_auto_install:
-DESTDIR=debian/gdm-tools PREFIX=/usr ./install.sh
-
-
 %:
 	dh $@

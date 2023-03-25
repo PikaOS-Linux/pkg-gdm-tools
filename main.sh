@@ -7,7 +7,8 @@ add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 # Clone Upstream
 git clone https://github.com/realmazharhussain/gdm-tools
-cp -rvf ./debian ./gdm-tools
+cp -rvf ./debian ./gdm-tools/
+cp -rvf ./Makefile ./gdm-tools/
 cd ./gdm-tools
 
 # Get build deps
